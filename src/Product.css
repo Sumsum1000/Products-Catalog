@@ -1,0 +1,29 @@
+body{
+    display: flex;
+  flex-wrap: wrap;
+
+}
+
+div.product{
+    width: 400px;
+    height: 1000px;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+    /* display: flex;
+    flex-direction: row; */
+}
+
+h3{
+    height: 40px;
+}
+
+.product-img{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.description-text{
+    position: absolute;
+    bottom: 0;
+}
